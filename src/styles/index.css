@@ -1,3 +1,8 @@
+@import 'App.css';
+@import 'Main.css';
+@import 'Sidebar.css';
+
+
 body {
   margin: 0;
   padding: 0;
