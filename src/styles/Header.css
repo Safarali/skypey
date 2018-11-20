@@ -1,0 +1,13 @@
+.Header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(189, 189, 192, .2);
+}
+
+.Header__name {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.Header__status {
+    font-size: 1.4rem;
+}
