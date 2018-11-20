@@ -1,10 +1,10 @@
 import React from 'react';
 
 const User = ({ user }) => {
-    const { name, profile_pic, status } = user;
+    const { name, profilePic, status } = user;
     return (
         <div className="User">
-            <img src={profile_pic} alt={name} className="User__pic"/>
+            <img src={profilePic} alt={name} className="User__pic"/>
                 <div className="User__details">
                     <p className="User__name">
                         {name}

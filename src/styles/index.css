@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
-@import 'App.css';
 @import 'base.css';
+@import 'App.css';
+@import 'Empty.css';
 @import 'Main.css';
 @import 'Sidebar.css';
 @import 'User.css';
