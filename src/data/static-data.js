@@ -31,9 +31,9 @@ export function generateUser() {
   return {
     name: faker.name.findName(),
     email: faker.internet.email(),
-    profile_pic: faker.internet.avatar(),
+    profilePic: faker.internet.avatar(),
     status: txtgen.sentence(),
-    user_id: shortid.generate()
+    userId: shortid.generate()
   };
 }
 /**
@@ -43,7 +43,7 @@ function generateMsg(number) {
   return {
     number,
     text: txtgen.sentence(),
-    is_user_msg: faker.random.boolean()
+    isUserMsg: faker.random.boolean()
   };
 }
 /**
