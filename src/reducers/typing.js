@@ -1,10 +1,14 @@
-import { SET_TYPING_VALUE } from '../actions/constants/action-types';
+import { 
+    SET_TYPING_VALUE,
+    SEND_MESSAGE
+} from '../actions/constants/action-types';
 
 const typing = (state = '', action) => {
     switch (action.type) {
         case SET_TYPING_VALUE:
-            return action.payload
-
+            return action.payload;
+        case SEND_MESSAGE:
+            return '';
         default:
             return state;
     }
