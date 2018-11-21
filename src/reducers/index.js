@@ -2,10 +2,12 @@ import { combineReducers } from 'redux';
 import activeUserId from './activeUserId';
 import contacts from './contacts';
 import user from './user';
+import messages from './messages';
 
 
 export default combineReducers({
    user,
    contacts,
-   activeUserId
+   activeUserId,
+   messages
 });

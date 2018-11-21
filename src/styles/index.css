@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
 @import 'base.css';
 @import 'App.css';
+@import 'Chats.css';
+@import 'ChatWindow.css';
 @import 'Empty.css';
 @import 'Header.css';
 @import 'Main.css';

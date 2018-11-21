@@ -8,7 +8,7 @@ export const contacts = _.mapKeys(users, "userId");
 export const getMessages = messagesPerUser => {
   let messages = {};
   _.forEach(users, user => {
-    messages[user.user_id] = {
+    messages[user.userId] = {
       ..._.mapKeys(generateMsgs(messagesPerUser), "number")
     };
   });
