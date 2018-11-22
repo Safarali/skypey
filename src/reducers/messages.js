@@ -15,7 +15,7 @@ const messages = (state = getMessages(10), action) => {
                     ...userMessages,
                     [number]: {
                         number,
-                        isUserMessage: true,
+                        isUserMsg: true,
                         text: message,
                     }
                 }
